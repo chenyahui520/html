@@ -14,4 +14,5 @@
   * [audio](video/audio.md)
 * [详情和概要标签](xiang-qing-he-gai-yao-biao-qian.md)
 * [marquee标签](marqueebiao-qian.md)
+* [HTMLz中被废弃的标签](htmlzzhong-bei-fei-qi-de-biao-qian.md)
 
