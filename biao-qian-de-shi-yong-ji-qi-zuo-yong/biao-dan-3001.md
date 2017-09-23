@@ -95,8 +95,6 @@ Ajax
 <input>
 ```
 
-
-
 #### 文字和输入框的绑定
 
 1.默认情况下文字和输入框是没有关联关系的，也就是说点击文字，输入框不会聚焦，如果想点击文字时让对应的输入框聚焦，那么就需要让文字和熟人框进行绑定
@@ -109,15 +107,11 @@ Ajax
 
 给输入框添加一个id属性
 
-在label标签中通过for属性和输入框中的id进行绑定即可 
-
-
+在label标签中通过for属性和输入框中的id进行绑定即可
 
 #### datalist标签
 
 作用：给输入框绑定带选项
-
-
 
 datalist格式
 
@@ -127,7 +121,25 @@ datalist格式
 </datalist>
 ```
 
+例如
 
+```
+请输入你的额车型：<input type="text"list="cars">
 
+<datalist id="cars">
 
+  <option>宝马</option>
+  <option>奥迪</option>
+</datalist>
+```
+
+如何给一个输入框绑定待选列表
+
+1搞一个输入框
+
+2搞一个datalist列表
+
+3.给dtalist列表标签添加一个id
+
+4给输入框添加一个list属性，将datalist的ID对应的值赋值给list属性即可
 
