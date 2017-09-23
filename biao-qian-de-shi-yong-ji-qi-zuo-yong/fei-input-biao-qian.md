@@ -7,7 +7,7 @@
 ```
 <select>
    <optgroup label="第一组数据">
-   <option></option>
+   <option  selected="selected"></option>
    <option></option>
    </optgroup>
    <optgroup label="第二组数据">
