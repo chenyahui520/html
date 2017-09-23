@@ -42,8 +42,6 @@ radio  单选框  **注意点 **
 
 checkbox  多选框
 
-
-
 #### 定义普通按钮
 
 可以通过value属性来给按钮指定标题
@@ -52,7 +50,20 @@ checkbox  多选框
 
 ```
 例如：<input type="button" value="我是按钮">
+
 ```
+
+**图片按钮**
+
+```
+<form>
+<input type="image" src="路劲">
+</from>
+```
+
+重置按钮
+
+type类型是reset
 
 
 
