@@ -50,7 +50,6 @@ checkbox  多选框
 
 ```
 例如：<input type="button" value="我是按钮">
-
 ```
 
 **图片按钮**
@@ -64,6 +63,14 @@ checkbox  多选框
 重置按钮
 
 type类型是reset
+
+作用：用于清空表单中已经填写好的数据
+
+注意定如果想改重置阿牛默认的阿牛标题可以通过value属性来修改
+
+```
+<input type= "reset" value="清空">
+```
 
 
 
