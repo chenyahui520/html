@@ -177,5 +177,7 @@ datalist格式
 <input type="color">
 ```
 
+####  除了按钮类型的input标签以外，其他的类型的标签都可以通过一个value属性来指定提交到服务器的值
+
 
 
