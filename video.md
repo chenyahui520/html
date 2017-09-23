@@ -29,13 +29,11 @@
 
 * height:
 
-
-
 #### video的第二种格式
 
 ```
 <video>
-<source src="" type=""></source>
+<source src="视频路劲" type="video/mp4"></source>
 </video>
 ```
 
