@@ -14,10 +14,6 @@ font:style weight size family
 * 在这种缩写格式中有的属性值是不可以省略的，size不能省略、family不能省略
 * size和family的位置是不能随便乱放的，size一定要写在family的前面，而且size和family写在所有属性的最后
 
-
-
-
-
 ### 文本属性
 
 1文本装饰的属性
@@ -42,8 +38,36 @@ td    text——decoration:none
 tdu   text——decoration:underline
 tdl   text——decoration:line——through
 tdo   text——decoration:overline
+```
+
+### 文本对齐的属性
+
+#### 格式：
 
 ```
+text-align：right
+```
+
+#### 取值：
+
+* left：左
+* right：右
+* center：中
+
+#### 文本缩进的属性
+
+**格式：**
+
+```
+text-indent：2em
+```
+
+2em,其中em是单位，一个em代表缩进，一个文字的宽度
+
+**快捷键**
+
+* ti  text—indent；
+* ti2e   text—indent：2em
 
 
 
