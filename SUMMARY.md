@@ -18,4 +18,6 @@
 * [HTMLz中被废弃的标签](htmlzzhong-bei-fei-qi-de-biao-qian.md)
 * [css](css.md)
   * [文本](css/wen-ben.md)
+  * [十六进制](css/shi-liu-jin-zhi.md)
+  * [选择器](css/xuan-ze-qi.md)
 
