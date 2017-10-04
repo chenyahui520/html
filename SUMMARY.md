@@ -10,7 +10,7 @@
   * [字符实体](biao-qian-de-shi-yong-ji-qi-zuo-yong/zi-fu-shi-ti.md)
 * [第二章锚点](mao-dian.md)
   * [利用a标签点击跳转到当前页面的指定位置](mao-dian/li-yong-a-biao-qian-dian-ji-tiao-zhuan-dao-dang-qian-ye-mian-de-zhi-ding-wei-zhi.md)
-  * video
+  * [video](mao-dian/video.md)
 * [第三章video标签](video.md)
   * [audio](video/audio.md)
 * [详情和概要标签](xiang-qing-he-gai-yao-biao-qian.md)
