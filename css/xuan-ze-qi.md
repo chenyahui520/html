@@ -251,6 +251,13 @@ div p{
   * ：nth-last-child\(n\) 选中同级别中的倒数第n个标签
 
   * ：only-child   选中父元素中唯一的元素
+* 同类型的第几个
+
+* * :frist-of-type  选中同级别中同类型的第一个标签
+  * :last-of-type 选中同级别中同类型的最后一个标签
+  * ：nth-of-type\(n\)  选中同级别中同类型的第n个标签
+  * ：nth-last-of-type\(n\) 选中同级别中同类型的倒数第n个标签
+  * ：only-of-type   选中父元素中唯一类型的某个标签
 
 
 
