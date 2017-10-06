@@ -28,8 +28,6 @@ css处理冲突的一种能力
 
 #### CSS全称  Cascading StyleSheet   层叠式样式表
 
-
-
 ---
 
 ### 优先级
