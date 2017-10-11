@@ -24,4 +24,5 @@
   * [important   权重](css/important-quan-zhong.md)
   * [div  与span](css/div-yu-span.md)
   * [css元素的显示模式](css/cssyuan-su-de-xian-shi-mo-shi.md)
+  * [如何转换css元素的显示模式](css/ru-he-zhuan-huan-css-yuan-su-de-xian-shi-mo-shi.md)
 
