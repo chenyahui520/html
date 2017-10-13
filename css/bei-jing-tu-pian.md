@@ -38,5 +38,9 @@ repeat-x:水平平铺
 
 no-repeat:在水平和垂直都不平铺
 
-repeat
+### 应用场景：
+
+
+
+
 
