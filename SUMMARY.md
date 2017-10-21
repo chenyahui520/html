@@ -28,4 +28,5 @@
   * [背景](css/bei-jing-tu-pian.md)
   * [css精灵图](css/cssjing-ling-tu.md)
   * [边框](css/bian-kuang.md)
+  * [盒子模型](css/he-zi-mo-xing.md)
 
