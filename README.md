@@ -18,3 +18,13 @@ This file file serves as your book's preface, a great place to describe your boo
 
 7将图片返回给浏览器
 
+
+
+### 在写网页的时候注意点
+
+* 清空默认的边距 外边距和内边距
+* 清空默认样式
+* 利用body设置整个界面的文字信息 文字大小、文字字体、文字颜色
+* 
+
+
