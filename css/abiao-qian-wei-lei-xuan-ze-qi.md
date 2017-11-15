@@ -48,6 +48,12 @@ transiton-property:width，background-corlor;
 transiton-duration:5s,5s
 ```
 
+#### 告诉徐彤延迟多少秒之后才开始过渡动画
+
+```
+transiton-delay- 2s
+```
+
 #### :hover这个伪类选择器除了可以用在a标签上，还可以用在其他任何标签上
 
 ### 过渡三要素
@@ -55,6 +61,12 @@ transiton-duration:5s,5s
 * 必须要有属性发生变化
 * 必须告诉系统哪个属性需要执行过渡效果
 * 必须告诉系统过渡效果持续时长
+
+### 注意点
+
+当多个属性需要同时执行过渡效果时用逗号隔开即可
+
+
 
 
 
