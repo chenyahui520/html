@@ -101,7 +101,6 @@ position:absolute
 * 静态定位应用场景:
 
   * 一般用于配合JS清除定位属性
- 
 
 ### z-index
 
@@ -116,11 +115,14 @@ position:absolute
 * 如果两个元素的父元素都没有设置z-index属性，那么谁的z-index属性比较大谁就显示在上面
 * 如果两个元素的父元素设置了z-index属性，那么子元素的z-index属性就会失效，也就是说谁的父元素的z-index属性比较大谁就会显示在上面
 
+**z-index应用场景**
+
+* 控制界面上的定位元素的覆盖关系，例如网页中后面的定位元素不能覆盖前面的导航条通栏。
+
+  
 
 
 详情参考
 
-http://www.jianshu.com/p/454a0eaa39ef
-
-
+[http://www.jianshu.com/p/454a0eaa39ef](http://www.jianshu.com/p/454a0eaa39ef)
 
