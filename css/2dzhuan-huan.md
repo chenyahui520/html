@@ -60,6 +60,13 @@ transform: translate(50px,100px);
 
 值 translate\(50px,100px\) 把元素从左侧移动 50 像素，从顶端移动 100 像素。
 
+#### 注意点：
+
+* 如果取值是1，代表不变
+* 如果取值大于1，代表需要放大
+* 如果取值小于1，代表需要缩小
+* 如果水平和垂直缩放都一样，那么可以简写为一个参数
+
 ---
 
 ## rotate\(\) 方法
@@ -134,20 +141,19 @@ transform: scale(2,4);
 div
 {
 transform: skew(30deg,20deg);
--ms-transform: skew(30deg,20deg);	
+-ms-transform: skew(30deg,20deg);    
 /* IE 9 */
 
--webkit-transform: skew(30deg,20deg);	
+-webkit-transform: skew(30deg,20deg);    
 /* Safari and Chrome */
 
--o-transform: skew(30deg,20deg);	
+-o-transform: skew(30deg,20deg);    
 /* Opera */
 
--moz-transform: skew(30deg,20deg);	
+-moz-transform: skew(30deg,20deg);    
 /* Firefox */
 
 }
-
 ```
 
 [亲自试一试](http://www.w3school.com.cn/tiy/t.asp?f=css3_transform_skew)
@@ -156,11 +162,11 @@ transform: skew(30deg,20deg);
 
 ---
 
-matrix\(\) 方法
+### matrix\(\) 方法
 
-matrix\(\) 方法把所有 2D 转换方法组合在一起。
+###### matrix\(\) 方法把所有 2D 转换方法组合在一起。
 
-matrix\(\) 方法需要六个参数，包含数学函数，允许您：旋转、缩放、移动以及倾斜元素。
+###### matrix\(\) 方法需要六个参数，包含数学函数，允许您：旋转、缩放、移动以及倾斜元素。
 
 ### 实例
 
@@ -170,23 +176,21 @@ matrix\(\) 方法需要六个参数，包含数学函数，允许您：旋转、
 div
 {
 transform:matrix(0.866,0.5,-0.5,0.866,0,0);
--ms-transform:matrix(0.866,0.5,-0.5,0.866,0,0);		
+-ms-transform:matrix(0.866,0.5,-0.5,0.866,0,0);        
 /* IE 9 */
 
--moz-transform:matrix(0.866,0.5,-0.5,0.866,0,0);	
+-moz-transform:matrix(0.866,0.5,-0.5,0.866,0,0);    
 /* Firefox */
 
--webkit-transform:matrix(0.866,0.5,-0.5,0.866,0,0);	
+-webkit-transform:matrix(0.866,0.5,-0.5,0.866,0,0);    
 /* Safari and Chrome */
 
--o-transform:matrix(0.866,0.5,-0.5,0.866,0,0);		
+-o-transform:matrix(0.866,0.5,-0.5,0.866,0,0);        
 /* Opera */
 
 }
-
 ```
 
-  
 新的转换属性
 
 下面的表格列出了所有的转换属性：
@@ -213,6 +217,5 @@ transform:matrix(0.866,0.5,-0.5,0.866,0,0);
 | skewY\(angle\) | 定义 2D 倾斜转换，沿着 Y 轴。 |
 
 * 
-
 
 
