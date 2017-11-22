@@ -227,7 +227,6 @@ animation-play-state: running;
 -o-animation-direction: alternate;
 -o-animation-play-state: running;
 }
-
 ```
 
 [亲自试一试](http://www.w3school.com.cn/tiy/t.asp?f=css3_animation4)
@@ -252,10 +251,25 @@ animation: myfirst 5s linear 2s infinite alternate;
 /* Opera: */
 
 -o-animation: myfirst 5s linear 2s infinite alternate;
-}
-
 ```
 
-  
+#### animation-fill-mode作用
+
+zhiding动画等待状态和结束状态的样式
+
+取值：
+
+none:不做任何改变
+
+forwards:让元素结束状态保持动画最后一帧的样式
+
+backwards；让元素等待状态的时候显示动画第一帧的样式
+
+both:让元素等待状态显示动画第一帧的样式，让元素结束状态保持动画最后一帧的样式
+
+#### 动画模块连写的格式
+
+animation:动画名称 动画时长 动画运动速度 延迟时间 执行次数 往返动画；
+
 
 
