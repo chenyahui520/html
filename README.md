@@ -36,6 +36,7 @@ This file file serves as your book's preface, a great place to describe your boo
 
 * 重置所有默认的样式和设置一些全局样式，并且将设置样式的css文件和对应的文件关联起来
   * 创建css文件- 清空默认的样式
+  * 设置全局的样式
 
 
 
