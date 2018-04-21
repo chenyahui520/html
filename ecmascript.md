@@ -14,8 +14,10 @@
 
 
 
-  
+#### window的一些的属性和方法
 
+* screenLeft和screenTop分别用于表示窗口相对于屏幕左边和上边的位置
+* moveTo\(\)和moveBy（）方法，
 
 
 
