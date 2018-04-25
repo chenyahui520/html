@@ -40,4 +40,5 @@
   * [动画animation](css/dong-hua-animation.md)
 * [ECMAScript](ecmascript.md)
   * [arguments对象](ecmascript/argumentsdui-xiang.md)
+  * [正则表达式](ecmascript/zheng-ze-biao-da-shi.md)
 
