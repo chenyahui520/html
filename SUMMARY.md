@@ -39,4 +39,5 @@
     * [3d](css/2dzhuan-huan/3d.md)
   * [动画animation](css/dong-hua-animation.md)
 * [ECMAScript](ecmascript.md)
+  * [arguments对象](ecmascript/argumentsdui-xiang.md)
 
