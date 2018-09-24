@@ -42,4 +42,5 @@
   * [arguments对象](ecmascript/argumentsdui-xiang.md)
   * [正则表达式](ecmascript/zheng-ze-biao-da-shi.md)
   * [构造函数](ecmascript/gou-zao-han-shu.md)
+  * [原型](ecmascript/yuan-xing.md)
 
