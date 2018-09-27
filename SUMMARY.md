@@ -43,4 +43,5 @@
   * [正则表达式](ecmascript/zheng-ze-biao-da-shi.md)
   * [构造函数](ecmascript/gou-zao-han-shu.md)
   * [原型](ecmascript/yuan-xing.md)
+  * [垃圾回收](ecmascript/la-ji-hui-shou.md)
 
