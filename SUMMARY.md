@@ -45,4 +45,5 @@
   * [原型](ecmascript/yuan-xing.md)
   * [垃圾回收](ecmascript/la-ji-hui-shou.md)
   * [数组](ecmascript/shu-zu.md)
+    * [数组字面量](ecmascript/shu-zu/shu-zu-zi-mian-liang.md)
 
