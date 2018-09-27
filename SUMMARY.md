@@ -44,4 +44,5 @@
   * [构造函数](ecmascript/gou-zao-han-shu.md)
   * [原型](ecmascript/yuan-xing.md)
   * [垃圾回收](ecmascript/la-ji-hui-shou.md)
+  * [数组](ecmascript/shu-zu.md)
 
