@@ -42,3 +42,14 @@
 
 arr.length就代表最后一个元素
 
+### 数组的遍历
+
+var arr = \["1","2","xiaohong"\]l
+
+for\( var i = 0; i&lt;arr.leng;i++ \){  console.log\(arr\[i\]\)};
+
+* 一般我们都是使用For循环去遍历数组，js中还为我么提供了一个方法，用来遍历数组
+  * forEach\(\)（只支持IE8以上的浏览器\) 
+
+
+
