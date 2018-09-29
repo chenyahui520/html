@@ -46,4 +46,5 @@
   * [垃圾回收](ecmascript/la-ji-hui-shou.md)
   * [数组](ecmascript/shu-zu.md)
     * [数组字面量](ecmascript/shu-zu/shu-zu-zi-mian-liang.md)
+    * [数组中的方法](ecmascript/shu-zu/shu-zu-zhong-de-fang-fa.md)
 
