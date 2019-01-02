@@ -62,7 +62,7 @@ position:absolute
 
 默认情况下绝对定位的元素会以body作为参考点，所以会随着浏览器的宽度高度的变化而变化
 
-### 子绝父相
+### 子绝父相  可以参考https://blog.csdn.net/fungleo/article/details/50056111
 
 子元素用绝对定位，父元素用相对定位
 
@@ -118,9 +118,6 @@ position:absolute
 **z-index应用场景**
 
 * 控制界面上的定位元素的覆盖关系，例如网页中后面的定位元素不能覆盖前面的导航条通栏。
-
-  
-
 
 详情参考
 
