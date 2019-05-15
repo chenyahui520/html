@@ -16,9 +16,9 @@
 
 ## 判断数据的类型
 
-* typeof
+* typeof    可以判断：undefined/数值/字符串 / 布尔值
 * instanceof 判断对象的具体类型
-* ===
+* ===   可以判断undefined null
 
 
 
