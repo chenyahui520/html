@@ -59,10 +59,10 @@
 ### 什么时候必须使用【‘属性名’】的方式
 
 * 属性名包含特殊字符：-  空格 等
-* 变量名不确定 例如变量是变量名。例如 
+* 属性名不确定 例如变量是变量名。例如   
   var p={}
 
-   p\['content-type'\]= "text/josn"
+  p\['content-type'\]= "text/josn"
 
   console.log\(p\['content-type'\]\)
 
@@ -72,8 +72,7 @@
 
   p\['propName'\]=value
 
-* 
-## 
+* ## 
 
 
 
