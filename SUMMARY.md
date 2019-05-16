@@ -48,7 +48,7 @@
     * [数组字面量](ecmascript/shu-zu/shu-zu-zi-mian-liang.md)
     * [数组中的方法](ecmascript/shu-zu/shu-zu-zhong-de-fang-fa.md)
   * [事件的冒泡](ecmascript/shi-jian-de-mao-pao.md)
-  * [数据类型](ecmascript/shu-ju-lei-xing.md)
+  * [基础总结](ecmascript/shu-ju-lei-xing.md)
   * [容易碰到的面试题目](ecmascript/rong-yi-peng-dao-de-mian-shi-ti-mu.md)
 * [jQuery](jquery.md)
 
