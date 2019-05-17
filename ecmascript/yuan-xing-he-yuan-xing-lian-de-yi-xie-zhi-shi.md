@@ -30,7 +30,7 @@
 * 所有函数都是Function的实例（包含Function）
 * Object的原型对象是原型链尽头
 
-![](/assets/WechatIMG1.jpeg)
+![](/assets/WechatIMG3.jpeg)
 
 1.读取对象的属性值时：会自动到原型链中查找
 
@@ -41,7 +41,7 @@
 #### instanceOf是如何判断的？
 
 * 表达式：A instanceOf  B
-* 如果B函数的显示原型对象在A对象的原型链上，返回true，否则返回false
+* 如果B函数的显示原型对象在A对象的原型链上，返回true，否则返回flase \(即左边是否为右边的实例对象\)
 
 
 
