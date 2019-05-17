@@ -50,5 +50,6 @@
   * [事件的冒泡](ecmascript/shi-jian-de-mao-pao.md)
   * [基础总结](ecmascript/shu-ju-lei-xing.md)
   * [容易碰到的面试题目](ecmascript/rong-yi-peng-dao-de-mian-shi-ti-mu.md)
+  * [原型和原型链的一些知识](ecmascript/yuan-xing-he-yuan-xing-lian-de-yi-xie-zhi-shi.md)
 * [jQuery](jquery.md)
 
