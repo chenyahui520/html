@@ -26,7 +26,7 @@
 
 ### 原型链  、原型对象 对象实例的关系图
 
-![](/assets/WechatIMG2.jpeg)
+![](/assets/WechatIMG3.jpeg)
 
 1.读取对象的属性值时：会自动到原型链中查找
 
@@ -36,11 +36,10 @@
 
 
 
+#### instanceOf是如何判断的？
 
-
-
-
-
+* 表达式：A instanceOf  B
+* 如果B函数的显示原型对象在A对象的原型链上，返回true，否则返回false
 
 
 
