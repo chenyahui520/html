@@ -30,7 +30,7 @@
 * 所有函数都是Function的实例（包含Function）所以函数都有proto\_\_属性，所有函数的隐式原型都指向Function的显示原型图4
 * * Object的原型对象是原型链尽头
 
-![](/assets/WechatIMG3.jpeg)
+![](/assets/5.png)
 
 1.读取对象的属性值时：会自动到原型链中查找
 
