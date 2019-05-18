@@ -27,8 +27,8 @@
 ### 原型链  、原型对象 对象实例的关系图
 
 * 函数的显示原型指向的对象默认是空Object实例对象（但Object不满足）
-* 所有函数都是Function的实例（包含Function）
-* Object的原型对象是原型链尽头
+* 所有函数都是Function的实例（包含Function）所以函数都有proto\_\_属性
+* * Object的原型对象是原型链尽头
 
 ![](/assets/WechatIMG3.jpeg)
 
