@@ -27,3 +27,39 @@
 
 
 
+
+
+
+
+#### 原型链的测试题
+
+* ```js
+    测试题1
+     */
+    var A = function() {
+
+    }
+    A.prototype.n = 1
+
+    var b = new A()
+
+    A.prototype = {
+      n: 2,
+      m: 3
+    }
+
+    var c = new A()
+    console.log(b.n, b.m, c.n, c.m)
+  
+    //解释
+  //A.prototype = {
+  //n: 2,
+  //m: 3
+  }相当于让函数A的显示原型重新指向了一个对象
+
+  ```
+
+---
+
+
+
