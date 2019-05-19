@@ -86,6 +86,50 @@ f\(\);
 * 解决
   * 能不用闭包就不用
   * 及时释放
-* 
+
+#### 面试题
+
+```js
+//代码片段一
+var name = "The Window";
+var object = {
+    name : "My Object",
+    getNameFunc : function(){
+        return function(){
+            return this.name;
+        };
+    }
+};
+alert(object.getNameFunc()());  //?
+
+
+//代码片段二
+var name2 = "The Window";
+var object2 = {
+    name2 : "My Object",
+    getNameFunc : function(){
+        var that = this;
+        return function(){
+            return that.name2;
+        };
+    }
+};
+alert(object2.getNameFunc()()); //?
+```
+
+```js
+  function fun(n,o) {
+        console.log(o)
+        return {
+            fun:function(m){
+                return fun(m,n);
+            }
+        };
+    }
+    var a = fun(0);  a.fun(1);  a.fun(2);  a.fun(3);//undefined,?,?,?
+    var b = fun(0).fun(1).fun(2).fun(3);//undefined,?,?,?
+    var c = fun(0).fun(1);  c.fun(2);  c.fun(3);//undefined,?,?,?
+```
+
 
 
