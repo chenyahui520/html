@@ -44,5 +44,15 @@ function Parent(xxx){this.xxx = xxx}
 * 利用原型链实现对父类型对象的方法继承
 * 利用super（）用父类型构建函数初始化相同属性
 
+```js
+  function Parent(xxx){this.xxx = xxx}
+  Parent.prototype.test = function(){};
+  function Child(xxx,yyy){
+      Parent.call(this, xxx);//借用构造函数   this.Parent(xxx)
+  }
+  Child.prototype = new Parent(); //得到test()
+  var child = new Child(); //child.xxx为'a', 也有test()
+```
+
 
 
