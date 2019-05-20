@@ -54,5 +54,13 @@ function Parent(xxx){this.xxx = xxx}
   var child = new Child(); //child.xxx为'a', 也有test()
 ```
 
+### 
+
+#### new一个对象背后做了些什么?
+
+* 创建一个空对象
+* 给对象设置\_\_proto\_\_, 值为构造函数对象的prototype属性值   this.\_\_proto\_\_ = Fn.prototyp
+* 执行构造函数体\(给对象添加属性/方法\)
+
 
 
