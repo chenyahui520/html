@@ -30,13 +30,13 @@
   * 在子类型构造函数中通用super（）调用父类型构造函数
 
 ```js
-  ```
-  function Parent(xxx){this.xxx = xxx}
+function Parent(xxx){this.xxx = xxx}
   Parent.prototype.test = function(){};
   function Child(xxx,yyy){
       Parent.call(this, xxx);//借用构造函数   this.Parent(xxx)
   }
   var child = new Child('a', 'b');  //child.xxx为'a', 但child没有test()
+
 ```
 
 #### 组合继承
