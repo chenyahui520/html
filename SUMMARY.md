@@ -40,6 +40,7 @@
   * [动画animation](css/dong-hua-animation.md)
 * [ECMAScript](ecmascript.md)
   * [正则表达式](ecmascript/zheng-ze-biao-da-shi.md)
+  * [js执行顺序](ecmascript/jszhi-xing-shun-xu.md)
   * [arguments对象](ecmascript/argumentsdui-xiang.md)
   * [构造函数](ecmascript/gou-zao-han-shu.md)
   * [原型](ecmascript/yuan-xing.md)
