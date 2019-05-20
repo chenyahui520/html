@@ -36,10 +36,13 @@ function Parent(xxx){this.xxx = xxx}
       Parent.call(this, xxx);//借用构造函数   this.Parent(xxx)
   }
   var child = new Child('a', 'b');  //child.xxx为'a', 但child没有test()
-
 ```
 
 #### 组合继承
+
+* 原型链+借用函数的组合继承
+* 利用原型链实现对父类型对象的方法继承
+* 利用super（）用父类型构建函数初始化相同属性
 
 
 
