@@ -44,7 +44,6 @@
 (function(w, obj){
 //实现代码
 })(window, obj)
-
 ```
 
 \* 专业术语为: IIFE \(Immediately Invoked Function Expression\) 立即调用函数表达式
@@ -87,10 +86,33 @@
     * 通过function声明的函数，在之前就可以直接调用
     * 值：函数的定义（对象）
 * ```js
+  栗子
+  1 // 函数声明
+  2 
+  3 foo(); //100
+  4 
+  5 function foo(){
+  6     console.log(100);
+  7 }
+  -------------------------------------------------------
+  、 1 // 函数表达式
+   2 baz(); // TypeError: baz is not a function
+   3 
+   4 var baz = function(){
+   5     console.log(200);
+   6 }
+   7 
+   8 //相当于
+   9 
+  10 var baz;
+  11 
+  12 baz();
+  13 
+  14 baz = function() {
+  15     console.log(200);
+  16 };
 
   ```
-
-
 
 ## 
 
