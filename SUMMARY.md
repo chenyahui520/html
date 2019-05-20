@@ -50,6 +50,7 @@
     * [数组中的方法](ecmascript/shu-zu/shu-zu-zhong-de-fang-fa.md)
   * [事件的冒泡](ecmascript/shi-jian-de-mao-pao.md)
   * [基础总结](ecmascript/shu-ju-lei-xing.md)
+    * [对象创建模式](ecmascript/shu-ju-lei-xing/dui-xiang-chuang-jian-mo-shi.md)
   * [容易碰到的面试题目](ecmascript/rong-yi-peng-dao-de-mian-shi-ti-mu.md)
   * [原型和原型链的一些知识](ecmascript/yuan-xing-he-yuan-xing-lian-de-yi-xie-zhi-shi.md)
   * [闭包](ecmascript/bi-bao.md)
