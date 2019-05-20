@@ -201,6 +201,34 @@
   * 函数声明提升
     * 通过function声明的函数，在之前就可以直接调用
     * 值：函数的定义（对象）
+* ```js
+  栗子
+  1 // 函数声明
+  2 
+  3 foo(); //100
+  4 
+  5 function foo(){
+  6     console.log(100);
+  7 }
+  -------------------------------------------------------
+  、 1 // 函数表达式
+   2 baz(); // TypeError: baz is not a function
+   3 
+   4 var baz = function(){
+   5     console.log(200);
+   6 }
+   7 
+   8 //相当于
+   9 
+  10 var baz;
+  11 
+  12 baz();
+  13 
+  14 baz = function() {
+  15     console.log(200);
+  16 };
+
+  ```
 
 #### 执行上下文
 
@@ -217,7 +245,9 @@
   * var定义的全局变量==&gt;undefined, 添加为window的属性
 
   * function声明的全局函数==&gt;赋值\(fun\), 添加为window的方法
+
   * this==&gt;赋值\(window\)
+
   * 开始执行全局代码
 
 * 函数执行上下文
