@@ -60,5 +60,14 @@
 * 套路：自定义构造函数，属性在函数中初始化，方法添加到原型上
 * 使用场景：需要创建多个类型的确定对象
 
+```js
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  Person.prototype.setName = function(name){this.name=name;};
+  new Person('tom', 12);
+```
+
 
 
