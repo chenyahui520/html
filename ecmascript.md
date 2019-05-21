@@ -48,9 +48,32 @@
 
 **Window -- 代表浏览器中一个打开的窗口：**
 
-  
-**document对象 -- 代表整个HTML 文档,可用来访问页面中的所有元素：**
+**document对象 -- 代表整个HTML 文档,可用来访问页面中的所有元素：**
 
+# document.documentElement和document.body的区别
+
+https://blog.csdn.net/gaoqiang1112/article/details/79376326
+
+页面具有 DTD，或者说指定了 DOCTYPE 时，使用 document.documentElement。
+
+页面不具有 DTD，或者说没有指定了 DOCTYPE，时，使用 document.body。
+
+在 IE 和 Firefox 中均是如此。
+
+为了兼容，不管有没有 DTD，可以使用如下代码：
+
+  
+
+
+```
+var scrollTop = window.pageYOffset  //用于FF
+                || document.documentElement.scrollTop  
+                || document.body.scrollTop  
+                || 0;
+
+```
+
+  
   
 
 
