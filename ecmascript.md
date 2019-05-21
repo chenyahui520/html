@@ -52,7 +52,7 @@
 
 # document.documentElement和document.body的区别
 
-https://blog.csdn.net/gaoqiang1112/article/details/79376326
+[https://blog.csdn.net/gaoqiang1112/article/details/79376326](https://blog.csdn.net/gaoqiang1112/article/details/79376326)
 
 页面具有 DTD，或者说指定了 DOCTYPE 时，使用 document.documentElement。
 
@@ -62,18 +62,16 @@ https://blog.csdn.net/gaoqiang1112/article/details/79376326
 
 为了兼容，不管有没有 DTD，可以使用如下代码：
 
-  
+**$\(document.body\).scrollTop\(\)+$\(document.documentElement\).scrollTop\(\)**
 
+**  读取页面滚动条的Y坐标\(兼容chrome和IE\)**
 
 ```
 var scrollTop = window.pageYOffset  //用于FF
                 || document.documentElement.scrollTop  
                 || document.body.scrollTop  
                 || 0;
-
 ```
 
-  
-  
 
 
