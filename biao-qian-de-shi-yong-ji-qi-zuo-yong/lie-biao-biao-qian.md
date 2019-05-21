@@ -117,7 +117,7 @@ dt是英文definition title 的缩写 ，所以dt的含义就是用来定义列�
 /*伸缩布局*/
 ```
 
-```
+```css
 在父元素的上添加
 
 display
