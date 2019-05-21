@@ -32,7 +32,7 @@
   * [行高](css/xing-gao.md)
   * [网页的布局方式](css/wang-ye-de-bu-ju-fang-shi.md)
   * [伪元素选择器](css/wei-yuan-su-xuan-ze-qi.md)
-  * [overflow](css/overflow.md)
+  * [overflow清除浮动](css/overflow.md)
   * [定位](css/ding-wei.md)
   * [a标签伪类选择器](css/abiao-qian-wei-lei-xuan-ze-qi.md)
   * [2D转换  透视属性](css/2dzhuan-huan.md)
