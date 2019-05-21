@@ -62,7 +62,7 @@ position:absolute
 
 默认情况下绝对定位的元素会以body作为参考点，所以会随着浏览器的宽度高度的变化而变化
 
-### 子绝父相  可以参考https://blog.csdn.net/fungleo/article/details/50056111
+### 子绝父相  可以参考[https://blog.csdn.net/fungleo/article/details/50056111](https://blog.csdn.net/fungleo/article/details/50056111)
 
 子元素用绝对定位，父元素用相对定位
 
@@ -101,6 +101,30 @@ position:absolute
 * 静态定位应用场景:
 
   * 一般用于配合JS清除定位属性
+
+position: relative;不会脱离文档流，position: fixed;position: absolute;会脱离文档流
+
+position: relative; 相对于自己在文档流中的初始位置偏移定位。
+
+position: fixed; 相对于浏览器窗口定位。
+
+position: absolute; 是相对于父级非position:static 浏览器定位。 
+
+如果没有任何一个父级元素是非position:static属性，则会相对于文档定位。
+
+这里它的父级元素是包含爷爷级元素、祖爷爷级元素、祖宗十八代级元素的。任意一级都可以。
+
+如果它的父级元素和爷爷级元素都是非position:static 属性，则，它会选择距离最近的父元素
+
+--------------------- 
+
+作者：FungLeo 
+
+来源：CSDN 
+
+原文：https://blog.csdn.net/fungleo/article/details/50056111 
+
+版权声明：本文为博主原创文章，转载请附上博文
 
 ### z-index
 
