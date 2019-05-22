@@ -59,4 +59,7 @@
   * [原型和原型链的一些知识](ecmascript/yuan-xing-he-yuan-xing-lian-de-yi-xie-zhi-shi.md)
   * [闭包](ecmascript/bi-bao.md)
 * [jQuery](jquery.md)
+  * [一些属性和方法](jquery/yi-xie-shu-xing-he-fang-fa.md)
+  * [1](jquery/1.md)
+  * 
 
