@@ -1,27 +1,3 @@
 {
-title”:”xxx”, 
-“description”: “xxx中文版”, 
-“language”: “zh”, 
-“pluginsConfig”: { 
-“fontSettings”: { 
-“theme”: “white”, 
-“family”: “msyh”, 
-“size”: 2 
-}, 
-“plugins”: [ 
-“yahei”, 
-“katex”, 
-“-search” 
-] 
-}, 
-“pdf”: { 
-“pageNumbers”: true, 
-“fontSize”: 13, 
-“margin”: { 
-“right”: 10, 
-“left”: 10, 
-“top”: 10, 
-“bottom”: 15 
-} 
-} 
+
 }
